@@ -17,6 +17,7 @@ function Itemfoolbalcomponent({}: Props) {
           <div className={`${classNamePrefix}__itemlogo-img`}>
             <img src={logo4} alt="" />
           </div>
+
           <div className={`${classNamePrefix}__itemlogo-time`}>
             <p>
               30/09 <br /> 00:3
@@ -25,6 +26,7 @@ function Itemfoolbalcomponent({}: Props) {
           <div className={`${classNamePrefix}__itemlogo-img`}>
             <img src={logo5} alt="" />
           </div>
+         
         </div>
         <div className={`${classNamePrefix}__itemtitle`}>
           <div>

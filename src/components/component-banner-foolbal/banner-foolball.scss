@@ -1,5 +1,7 @@
 .hotmatch {
   margin-top: 1.5rem !important;
+  position: relative;
+
   &__header {
     position: relative;
     width: 100%;
@@ -23,6 +25,7 @@
   }
   &__slide {
     position: relative;
+    min-height: 170px;
     &::before {
       content: "";
       width: 100%;
@@ -48,6 +51,13 @@
     right: 0;
     top: 0.25rem;
     transition: all 0.3s linear;
+
+    gap: 0px 2px;
+    span {
+      font-size: 0.875rem;
+      line-height: 1rem;
+      color: #fbfbfb;
+    }
     img {
       height: 26px;
       width: 26px;
@@ -55,6 +65,26 @@
     &:hover {
       filter: brightness(1.2);
       cursor: pointer;
+    }
+  }
+  &__next {
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    z-index: 100;
+    cursor: pointer;
+    img {
+      width: 31px;
+    }
+  }
+  &__prev {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    z-index: 100;
+    cursor: pointer;
+    img {
+      width: 31px;
     }
   }
 }

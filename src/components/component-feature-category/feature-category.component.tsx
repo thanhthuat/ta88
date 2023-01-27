@@ -36,7 +36,7 @@ function FeatureCategorycomponent({}: Props) {
       <div className={`${classNamePrefix}__content`}>
         {data.slice(0, 5).map((item) => {
           return (
-            <div className={`${classNamePrefix}__item`}>
+            <div className={`${classNamePrefix}__item`} key={item.src}>
               <video
                 className={`${classNamePrefix}__item-video`}
                 preload="auto"

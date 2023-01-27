@@ -29,9 +29,9 @@ function Bannercomponent() {
         modules={[Autoplay, Pagination, Navigation]}
         className={classNamePrefix}
       >
-        {arrbanner.map((item) => {
+        {arrbanner.map((item,index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div className={`${classNamePrefix}__item`}>
                 <img className={`${classNamePrefix}__image`} src={item.src} alt="item.src"></img>
               </div>
