@@ -9,7 +9,10 @@
   &__header {
     border-bottom: 1px solid #334166;
     img {
-      width: 100%;
+      width: 394px;
+      /* position: absolute; */
+      margin-top: -16px;
+      transform: translate(-62px, -9px);
     }
   }
   ul > li {
@@ -21,7 +24,7 @@
     &-item {
       font-weight: 700;
       color: #626c88;
-      padding: 17px 0 5px;
+      padding: 10px 0 5px;
       font-size: 15px;
       text-align: center;
       position: relative;

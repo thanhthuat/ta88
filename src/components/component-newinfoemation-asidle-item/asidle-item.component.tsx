@@ -17,7 +17,7 @@ function Itemasidlecomponent({item}: IasidleItem) {
             <p>{item.description}</p>{" "}
           </div>
           <div className={`${classNamePrefix}__body-time`}>
-            <span>{item.time}</span>
+            <span> <i className="fa-regular fa-clock"></i> {item.time}</span>
           </div>
         </div>
       </div>

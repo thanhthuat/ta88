@@ -6,7 +6,7 @@
   background: rgba(25, 42, 74, 0.8);
   margin: 0 4px 4px;
   position: relative;
- gap: 0px 10px;
+  gap: 0px 10px;
   &__avata {
     img {
       width: 3rem;
@@ -33,5 +33,9 @@
     background: linear-gradient(180deg, #ffdb95, #ff981a);
    background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  &:hover{
+    box-shadow: inset 0 0 3px 0 rgb(14 75 177 / 60%);
+    cursor: pointer;
   }
 }

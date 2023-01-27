@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import img from "../../assets/img/img-gamehot/bau_cua.webp";
 import img1 from "../../assets/img/img-gamehot/img-ingame-baccarat@2x.webp";
 import img2 from "../../assets/img/img-gamehot/tai_siu_sanh_rong.webp";
@@ -27,7 +26,7 @@ function Tabgamehotcomponent({}: Props) {
   return (
     <div className={`${classNamePrefix}`}>
       <div className={`${classNamePrefix}__header`}>
-        <span className={`${classNamePrefix}__header-item`}>GAME HOT</span>
+        <span className={`${classNamePrefix}__header-item tab-active`}>GAME HOT</span>
         <span className={`${classNamePrefix}__header-item`}>HŨ SẮP NỔ</span>
         <span className={`${classNamePrefix}__header-item`}>BẮN CÁ HẤP DẪN</span>
         <span className={`${classNamePrefix}__header-item`}>LÔ ĐỀ TRỰC TIẾP</span>
@@ -37,9 +36,12 @@ function Tabgamehotcomponent({}: Props) {
           return (
             <div className={`${classNamePrefix}__item`} key={item.src}>
               <img src={item.src} alt="" />
-              <div className={`${classNamePrefix}__title`} >
+              <div className={`${classNamePrefix}__title`}>
                 <div className={`${classNamePrefix}__title-coin`}>Baccarat Lucky 88</div>
-                <div className={`${classNamePrefix}__title-name`}>Baccarat Lucky 88</div>
+              </div>
+              <div className={`${classNamePrefix}__name`}>Baccarat Lucky 88</div>
+              <div className={`${classNamePrefix}__play`}>
+                <div className={`${classNamePrefix}__play-button`}> Chơi ngay</div>
               </div>
             </div>
           );
