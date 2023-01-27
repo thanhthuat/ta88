@@ -1,0 +1,27 @@
+.newinformation {
+ padding-top: 30px;
+  &__header {
+    display: flex;
+    width: 100%;
+    &-item1 {
+        width: 66%;
+      font-size: 1.875rem;
+      line-height: 2.5rem;
+      text-align: left;
+      color: #ff8a2b;
+      margin-bottom: 1rem;
+    }
+    &-item {
+        width: 34%;
+      font-size: 1.875rem;
+      line-height: 2.5rem;
+      text-align: left;
+      color: #ff8a2b;
+      margin-bottom: 1rem;
+    }
+  }
+  &__body {
+    display: flex;
+    gap: 0px 22px;
+  }
+}

@@ -1,0 +1,28 @@
+.hotnewitem {
+    padding: 16px 17px 0;
+    color: #b8c0de;
+    display: flex;
+    align-items: center;
+  &__number {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    font-size: 36px;
+    line-height: 50px;
+    color: #969ebb;
+    width: 30px;
+    margin-right: 20px;
+    opacity: 0.5;
+    font-weight: 700;
+    transform: skewX(-10deg);
+  }
+  &__content {
+    color: #c8d2eb;
+    font-family: SFUHelvetica;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

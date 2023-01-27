@@ -1,0 +1,37 @@
+.item-alertgamehot {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.9375rem;
+  border-radius: 4px;
+  background: rgba(25, 42, 74, 0.8);
+  margin: 0 4px 4px;
+  position: relative;
+ gap: 0px 10px;
+  &__avata {
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &__person {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    text-transform: capitalize;
+  }
+  &__name {
+    text-transform: capitalize;
+    color: #d2d2d2;
+    font-family: SFUHelvetica;
+    font-size: 0.6875rem;
+    line-height: 0.9375rem;
+    margin: 4px 0 1px;
+  }
+  &__price {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    text-transform: capitalize;
+    background: linear-gradient(180deg, #ffdb95, #ff981a);
+   background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

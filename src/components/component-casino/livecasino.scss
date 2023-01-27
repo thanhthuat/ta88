@@ -1,0 +1,74 @@
+.livecasino {
+  padding-top: 38px;
+  padding-bottom: 36px;
+  &__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    h5 {
+      font-size: 1.5rem;
+      line-height: 2.0625rem;
+      position: relative;
+      display: inline-block;
+      text-transform: uppercase;
+      color: #d7dbec;
+      margin-bottom: 0;
+    }
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    grid-row-gap: 15px;
+    row-gap: 15px;
+  }
+  &__item {
+    position: relative;
+    padding-top: 150%;
+    &-img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      -o-object-fit: cover;
+      object-fit: cover;
+      transition: all 0.3s linear;
+    }
+
+    &-btn {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      bottom: -13%;
+      transition: all 0.3s linear;
+      img {
+        width: 100%;
+      }
+    }
+    &:hover .livecasino__item-btn {
+      opacity: 1;
+      visibility: visible;
+    }
+    &:hover .livecasino__item-img {
+      transform: scale(1.1);
+    }
+  }
+}
+// opacity: 1;
+//     visibility: visible;
+// }
+// .casino-section .live-casino__items:hover .live-casino__items-btn {
+//     opacity: 1;
+//     visibility: visible;
+// }
+// .casino-section .live-casino__items-btn {
+//     opacity: 0;
+//     visibility: hidden;
+//     position: absolute;
+//     bottom: -13%;
+//     transition: all .3s linear;

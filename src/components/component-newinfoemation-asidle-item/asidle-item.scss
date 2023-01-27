@@ -1,0 +1,57 @@
+.asidleitem {
+  padding-bottom: 17px;
+  padding-top: 17px;
+  border-bottom: 1px solid #252d41;
+  &__content {
+    display: flex;
+    max-width: 486px;
+    gap:0px 22px;
+  }
+  &__avata {
+    max-width: 215px;
+    height: 134px;
+    width: 215px;
+    img {
+      width: 215px;
+      height: auto;
+    }
+  }
+  &__body {
+    &-title {
+      font-size: 0.9375rem;
+      line-height: 1.25rem;
+      text-transform: capitalize;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      color: #c8d2eb;
+    }
+    &-description {
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      display: -webkit-box;
+      color: #7580a9;
+      font-size: 13px;
+      line-height: 20px;
+      margin-top: 5px;
+    }
+    &-time {
+      font-size: 14px;
+      line-height: 24px;
+      display: inline-block;
+      color: #7580a9;
+      margin-top: 5px;
+    }
+  }
+}
+.asidleitem:first-child {
+  padding-bottom: 17px;
+  padding-top: 0px;
+  border-bottom: 1px solid #252d41;
+}
+.asidleitem:last-child {
+ 
+  border-bottom: none;
+}

@@ -1,0 +1,47 @@
+.tabgamehot {
+  &__header {
+    display: flex;
+    margin-bottom: 1.5rem;
+    &-item {
+      padding: 0 16px;
+      border-right: 2px solid #252d41;
+      cursor: pointer;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 60px 20px;
+  }
+  &__item {
+    width: 210px;
+    height: 262px;
+    border-radius: 16px;
+    position: relative;
+    img {
+      border-radius: 16px;
+      width: 100%;
+    }
+  }
+  &__title{
+    position: absolute;
+    bottom: -10%;
+    /* right: 50%; */
+    /* left: 50%; */
+    width: 100%;
+    /* transform: translate(-50%, 5%); */
+    text-align: center;
+    &-coin{
+      margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ff8a2b;
+    // padding: 7px 10px 7px 15px;
+    }
+    &-name{
+      color: #969ebb;
+    }
+  }
+}

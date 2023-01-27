@@ -1,0 +1,1 @@
+export * from './banner-foolbal.component';

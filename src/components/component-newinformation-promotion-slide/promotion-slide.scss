@@ -1,0 +1,34 @@
+.promotionslide {
+  &__item {
+    position: relative;
+  }
+  &__image {
+    width: 100%;
+    height: 290px;
+    object-fit: fill;
+  }
+  &__title {
+    position: absolute;
+    right: -2px;
+    bottom: -1px;
+    z-index: 10;
+    background: url(https://t1.ta88.com/img/assets/images/components/desktop/pages/promotion/btn-detail.svg)
+      no-repeat;
+    padding: 5px 10px 5px 16px;
+    span {
+      font-size: 0.75rem;
+      line-height: 1rem;
+      color: #fbfbfb;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+    }
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
+    width: 20%;
+  }
+}

@@ -1,0 +1,13 @@
+.banner{
+   
+    &__item{
+        width: 100%;
+    }
+    &__image{
+        min-height: 320px;
+        object-fit: cover;
+    z-index: 1;
+    width: 100%;
+
+    }
+}

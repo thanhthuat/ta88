@@ -1,0 +1,30 @@
+.marathon{
+    display: flex;
+    justify-content: space-between;
+    min-height: 145px;
+    margin-top: 26px !important;
+
+    background: linear-gradient(180deg,#112357,rgba(17,35,87,0));
+    //transform: matrix(1,0,0,-1,0,0);
+     border-radius: 8px;
+    // position: absolute;
+    // left: 0;
+    // bottom: 0;
+    z-index: 2;
+
+    &__left{
+        img{
+            max-width: 370px;
+        }
+    }
+    &__right{
+        display: flex;
+        gap:0px 8px;
+        align-items: center;
+        padding-right: 8px;
+        img{
+            width: 106px;
+            height: 92px;
+        }
+    }
+}

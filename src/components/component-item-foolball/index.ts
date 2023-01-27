@@ -1,0 +1,1 @@
+export {default as Itemfoolbalcomponent} from './item-foolbal.component'
